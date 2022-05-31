@@ -12,6 +12,9 @@ public class PipelineTest {
         System.out.println( "I go to run the looper() in class CounterLooper." );
         new CounterLopper().looper1();
 
+        System.out.println( "I go to run the sayStringArray() in class Simplestringarray class." );
+        new Simplestringarray().sayStringArray();
+
     }
 
     public static void test1() {
