@@ -6,13 +6,21 @@ public class PipelineTest {
     {
         System.out.println( "Hello, this is Pipeline Tester." );
 
+        System.out.println( "I go to run the local method test1()." );
         test1();
 
+        System.out.println( "I go to run the looper() in class CounterLooper." );
+        new CounterLopper().looper1();
 
     }
 
     public static void test1() {
         System.out.println( "Hello, this is Pipeline test1." );
     }
+
+    public static void test2() {
+
+    }
+
 
 }
